@@ -10,7 +10,7 @@ A market-first skill for turning a role, resume, tech stack, or career goal into
 - researches the target market and public CV patterns before drafting the output
 - suggests best-fit job titles
 - builds ATS keyword maps
-- writes a full market-calibrated CV draft after research, organized company by company
+- writes a full market-calibrated ATS-safe CV draft after research, organized company by company
 - creates US, UK, and EU resume or CV versions
 - generates LinkedIn headlines and recruiter messages
 - flags unsupported claims and weak positioning

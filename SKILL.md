@@ -22,6 +22,17 @@ The final output should feel like a real market-calibrated resume, not a generic
 
 The research step must include both vacancy signals and public CV signals for the same role family when available. Public CV signals include LinkedIn headlines, resumes posted on portfolio sites, personal websites, GitHub profile summaries, and other visible career pages.
 
+The golden CV must also obey ATS-safe formatting and tailoring rules:
+
+- one-column structure
+- standard section headings
+- no tables, skill bars, icons, charts, or decorative layout elements
+- no important text in headers or footers
+- standard fonts and plain, copyable text
+- acronyms written as full form + acronym on first use
+- achievement bullets that show action, scope, and outcome
+- market-specific tailoring for US, UK, or EU
+
 ## Core Principle
 
 Do not optimize for one stack. Optimize for the candidate's strongest marketable positioning.
@@ -110,9 +121,13 @@ Use this sequence:
 - write the Experience section company by company, as a realistic CV would, using the researched role expectations to shape each company's bullets
 - ensure each company block reads like a real resume entry with role title, company, dates, and 4 to 6 bullets
 - make the bullets outcome-led, not tool-led
+- keep the final CV ATS-safe: one column, standard headings, no decorative elements, no tables, no icons
+- first mention acronyms in full, then use the acronym after it
+- tailor the CV for the target market with the right section order and local fields
 - write the Projects section if useful
 - write the Education and Languages sections
 - write any extra sections needed for the market
+- include a final ATS compliance check before the answer is finished
 
 Do not refuse because the user's own resume is missing. Instead, generate the best market benchmark draft.
 
@@ -127,6 +142,8 @@ For the Experience section, mirror a real resume format:
 - align the bullets to what the market research says this role expects
 - include scope, ownership, and measurable outcomes where reasonable
 - keep the sequence plausible for the target seniority and market
+- use accomplishment bullets in the form action + system/technology + scale/context + result
+- if metrics are unknown, use plausible placeholders only in benchmark mode
 
 For every vacancy, keep the same high-level output order:
 
@@ -135,7 +152,8 @@ For every vacancy, keep the same high-level output order:
 3. Employer expectations
 4. ATS keyword map
 5. Full CV draft
-6. Market notes and gaps
+6. ATS compliance notes
+7. Market notes and gaps
 
 ### 4. Diagnose positioning
 
@@ -243,14 +261,48 @@ When the user asks for a golden CV, use the full CV draft format below:
 
 ## Additional Information
 
+## ATS Compliance Notes
+
 ## Market Notes
 
 ## Gaps To Fill
 ```
 
-The `Market Notes` and `Gaps To Fill` sections are allowed, but the main output must still be a complete CV draft, not only a blueprint.
+The `ATS Compliance Notes`, `Market Notes`, and `Gaps To Fill` sections are allowed, but the main output must still be a complete CV draft, not only a blueprint.
 
 Use the market research to decide the bullets, but keep the draft concrete and readable as if it were a real CV.
+
+### ATS Rules by Market
+
+#### US
+
+- no photo
+- no age, date of birth, marital status, or nationality
+- 1 to 2 pages for most technical roles
+- impact-first bullets and tight keyword matching
+- standard sections: Summary, Skills, Work Experience, Projects, Education
+
+#### UK / EU
+
+- keep personal data minimal
+- include languages when relevant
+- include work authorization or relocation preference when relevant
+- use clear headings and a plain, ATS-readable format
+- prefer a one-column CV over a design-heavy Europass-style document unless the role asks for Europass specifically
+
+### Final ATS Checklist
+
+Before finishing a golden CV, verify:
+
+- one column only
+- no tables, icons, charts, skill bars, or decorative blocks
+- standard section names
+- keywords from the vacancy appear in skills and in bullets
+- acronyms appear in full on first use
+- bullets show outcome, scope, and ownership
+- contacts are visible in plain text
+- the output is tailored to the target market
+- for EU, languages and work authorization are included if relevant
 
 ## Market Rules
 
