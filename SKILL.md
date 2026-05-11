@@ -16,6 +16,8 @@ Build ATS-friendly career positioning from any combination of:
 
 Use this skill when the user wants to understand which roles fit their background, map skills to job titles, rewrite bullets, adapt a resume for a market, or prepare LinkedIn and recruiter outreach materials.
 
+When the user provides a resume and a target market or target role, do not stop at abstract advice. First, research current public job postings for that market/role and, when useful, benchmark publicly visible resume patterns for the same role family. Use that market evidence to shape the final CV, keywords, title, and salary guidance.
+
 ## Core Principle
 
 Do not optimize for one stack. Optimize for the candidate's strongest marketable positioning.
@@ -51,7 +53,19 @@ Classify the user's material into one or more of:
 - target market
 - constraints or preferences
 
-### 2. Diagnose positioning
+### 2. Research the market
+
+If the user gave enough context to search, collect live evidence before drafting the final output:
+
+- current job postings for the target role or role family
+- repeated keywords, tools, and responsibilities
+- seniority signals in the market
+- common salary bands if available from public sources
+- resume patterns that match the same role family
+
+Use this research to ground the rest of the output. If browsing is not available, say so explicitly and continue with the best available offline analysis.
+
+### 3. Diagnose positioning
 
 Produce:
 
@@ -65,7 +79,7 @@ Produce:
 
 Use `references/role-taxonomy.md` and `references/skill-to-role-mapping.md` as the main mapping sources.
 
-### 3. Build the keyword map
+### 4. Build the keyword map
 
 Split keywords into:
 
@@ -76,7 +90,7 @@ Split keywords into:
 
 Use `references/tech-keyword-clusters.md` and the target job description.
 
-### 4. Rewrite or assemble the deliverable
+### 5. Rewrite or assemble the deliverable
 
 Depending on the user's goal, produce one or more of:
 
@@ -88,7 +102,7 @@ Depending on the user's goal, produce one or more of:
 - gap analysis
 - application strategy
 
-### 5. Run an honesty check
+### 6. Run an honesty check
 
 Flag anything that is:
 
