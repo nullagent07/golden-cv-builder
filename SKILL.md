@@ -85,11 +85,14 @@ Use this sequence:
 - write the Summary
 - write the Skills section
 - write the Experience section with market-aligned bullets
+- for Senior or Lead roles, write the Experience section as a market-standard 5-year senior experience arc, showing progression across 2 to 3 roles or phases
 - write the Projects section if useful
 - write the Education and Languages sections
 - write any extra sections needed for the market
 
-Do not refuse because the user's own resume is missing. Instead, generate the best market benchmark draft and mark any missing candidate-specific facts as placeholders.
+Do not refuse because the user's own resume is missing. Instead, generate the best market benchmark draft.
+
+If the user's own facts are missing, clearly label the output as a market benchmark draft and use realistic placeholder markers only for personal data, companies, dates, or metrics that cannot be known.
 
 ### 4. Diagnose positioning
 
@@ -199,10 +202,20 @@ When the user asks for a golden CV, use the full CV draft format below:
 
 ## Market Notes
 
+## Senior Experience Arc
+
 ## Gaps To Fill
 ```
 
-The `Market Notes` and `Gaps To Fill` sections are allowed, but the main output must still be a complete CV draft, not only a blueprint.
+The `Market Notes`, `Senior Experience Arc`, and `Gaps To Fill` sections are allowed, but the main output must still be a complete CV draft, not only a blueprint.
+
+For Senior roles, the `Professional Experience` section should read like a realistic senior benchmark resume:
+
+- phase 1: solid iOS foundation with delivery ownership
+- phase 2: deeper product feature ownership and architecture
+- phase 3: performance, testing, release quality, mentoring, and cross-functional leadership
+
+Use the market research to decide the bullets, but keep the draft concrete and readable as if it were a real CV.
 
 ## Market Rules
 

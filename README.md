@@ -10,7 +10,7 @@ A market-first skill for turning a role, resume, tech stack, or career goal into
 - researches the target market before drafting the output
 - suggests best-fit job titles
 - builds ATS keyword maps
-- writes a full golden CV draft after market research
+- writes a full golden CV draft after market research, including senior experience arcs
 - creates US, UK, and EU resume or CV versions
 - generates LinkedIn headlines and recruiter messages
 - flags unsupported claims and weak positioning
