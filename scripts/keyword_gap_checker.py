@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Simple keyword gap checker for career positioning.
+"""Keyword gap checker for career positioning.
 
 This script compares a source text with a target text and prints missing
-keywords from the target that do not appear in the source.
+keywords from the target that do not appear in the source. It treats each
+comma/newline/semicolon/slash-separated entry as a keyword or keyword phrase.
 """
 
 from __future__ import annotations
@@ -26,17 +27,21 @@ def extract_keywords(text: str) -> list[str]:
     return keywords
 
 
+def normalize(text: str) -> str:
+    return re.sub(r"\s+", " ", text.lower())
+
+
 def main() -> int:
     if len(sys.argv) != 3:
         print("Usage: keyword_gap_checker.py SOURCE_FILE TARGET_FILE", file=sys.stderr)
         return 1
 
-    source = load_text(sys.argv[1]).lower()
+    source = normalize(load_text(sys.argv[1]))
     target = load_text(sys.argv[2])
     missing: list[str] = []
 
     for keyword in extract_keywords(target):
-        if keyword not in source and keyword not in missing:
+        if normalize(keyword) not in source and keyword not in missing:
             missing.append(keyword)
 
     for keyword in missing:

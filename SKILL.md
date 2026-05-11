@@ -1,4 +1,9 @@
-# Skill: `career-positioning-builder`
+---
+name: career-positioning-builder
+description: builds ATS-friendly resumes, CVs, LinkedIn positioning, keyword maps, and job-application materials from a user's resume, tech stack, target job, or career goal. Use when the user wants to understand which roles fit their background, adapt a resume for US, UK, or EU markets, rewrite experience bullets, map skills to job titles, optimize for ATS, or prepare application materials for technical, data, AI, product, analytics, or engineering roles.
+---
+
+# Career Positioning Builder
 
 ## Purpose
 
