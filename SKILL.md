@@ -1,9 +1,9 @@
 ---
-name: career-positioning-builder
-description: builds ATS-friendly resumes, CVs, LinkedIn positioning, keyword maps, and job-application materials from a user's resume, tech stack, target job, or career goal. Use when the user wants to understand which roles fit their background, adapt a resume for US, UK, or EU markets, rewrite experience bullets, map skills to job titles, optimize for ATS, or prepare application materials for technical, data, AI, product, analytics, or engineering roles.
+name: golden-cv-builder
+description: researches current job markets and builds golden ATS-friendly CVs, resumes, LinkedIn positioning, keyword maps, and job-application materials from a user's role target, resume, tech stack, or career goal. Use when the user wants a market-first CV for US, UK, or EU roles, a job-aligned resume rewrite, role-to-keyword mapping, salary guidance, or a golden CV benchmark for technical, data, AI, product, analytics, or engineering positions.
 ---
 
-# Career Positioning Builder
+# Golden CV Builder
 
 ## Purpose
 

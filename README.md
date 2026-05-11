@@ -1,8 +1,8 @@
-# Career Positioning Builder
+# Golden CV Builder
 
-A reusable skill for turning a resume, tech stack, target job, or career goal into ATS-friendly career positioning and application materials.
+A market-first skill for turning a role, resume, tech stack, or career goal into a golden ATS-friendly CV and application materials.
 
-[![skills.sh](https://skills.sh/b/nullagent07/career-positioning-builder)](https://skills.sh/nullagent07/career-positioning-builder)
+[![skills.sh](https://skills.sh/b/nullagent07/golden-cv-builder)](https://skills.sh/nullagent07/golden-cv-builder)
 
 ## What it does
 
@@ -19,7 +19,7 @@ A reusable skill for turning a resume, tech stack, target job, or career goal in
 ## Install
 
 ```bash
-npx skills add https://github.com/nullagent07/career-positioning-builder
+npx skills add https://github.com/nullagent07/golden-cv-builder
 ```
 
 ## Example prompts
