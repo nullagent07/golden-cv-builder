@@ -97,6 +97,25 @@ When benchmarking public CVs, extract these patterns:
 - how metrics and outcomes are phrased
 - which claims appear often and which are absent
 
+### 2.5. Vacancy intent analysis
+
+For every target role or job description, infer the specialist the vacancy is really screening for.
+
+Produce:
+
+- actual specialist needed
+- role family
+- likely seniority
+- hiring intent
+- must-have proof points
+- nice-to-have proof points
+- what the employer is really optimizing for
+- what would disqualify a candidate quickly
+
+Use the wording of the vacancy, the responsibilities, the required experience, and the public CV benchmarks to infer the real target profile.
+
+Do not just mirror the job title. Translate the vacancy into the profile the employer is likely trying to hire.
+
 ### 3. Golden CV mode
 
 If the user asked for a golden CV, or if they only gave a role and market, produce a full CV draft after research.
@@ -110,6 +129,7 @@ Use this sequence:
 - define the target title the market actually uses
 - list the top alternate titles the market would recognize
 - compare the candidate positioning against public resume patterns and explain the delta
+- add a vacancy intent summary that explains what specialist the employer is actually looking for
 - summarize what employers are screening for
 - extract the recurring ATS keywords
 - identify the must-have proof points
@@ -149,11 +169,12 @@ For every vacancy, keep the same high-level output order:
 
 1. Market-calibrated positioning
 2. Public CV pattern benchmark
-3. Employer expectations
-4. ATS keyword map
-5. Full CV draft
-6. ATS compliance notes
-7. Market notes and gaps
+3. Vacancy intent analysis
+4. Employer expectations
+5. ATS keyword map
+6. Full CV draft
+7. ATS compliance notes
+8. Market notes and gaps
 
 ### 4. Diagnose positioning
 
