@@ -70,17 +70,24 @@ Use this research to ground the rest of the output. If browsing is not available
 
 ### 3. Golden CV mode
 
-If the user asked for a golden CV, or if they only gave a role and market, build the market-standard target profile first:
+If the user asked for a golden CV, or if they only gave a role and market, produce a full CV draft after research.
+
+The output must not stop at blueprinting. It must include the actual CV text with sections written as if the resume were being finalized for that role.
+
+Use this sequence:
 
 - define the target title the market actually uses
 - summarize what employers are screening for
 - extract the recurring ATS keywords
 - identify the must-have proof points
 - identify the common gaps that weaken candidates
-- draft a golden resume structure and section order
-- draft a gold-standard summary, skill block, and achievement bullet patterns
-- include a clear `What the employer expects` section
-- include a clear `What to learn or prove` section
+- write the final CV structure
+- write the Summary
+- write the Skills section
+- write the Experience section with market-aligned bullets
+- write the Projects section if useful
+- write the Education and Languages sections
+- write any extra sections needed for the market
 
 Do not refuse because the user's own resume is missing. Instead, generate the best market benchmark draft and mark any missing candidate-specific facts as placeholders.
 
@@ -171,29 +178,31 @@ When the user asks for a resume rewrite, use:
 ## Extra Sections
 ```
 
-When the user asks for a golden CV, use:
+When the user asks for a golden CV, use the full CV draft format below:
 
 ```markdown
-## Target Role
-
-## What Employers Are Screening For
-
-## ATS Keyword Map
-
-## Gold Standard Resume Structure
+## [Target Title]
 
 ## Summary
 
-## Skills
+## Core Skills
 
-## Experience Pattern
+## Professional Experience
 
-## Project Pattern
+## Selected Projects
 
-## What to Learn or Prove
+## Education
 
-## Placeholder Facts To Fill
+## Languages
+
+## Additional Information
+
+## Market Notes
+
+## Gaps To Fill
 ```
+
+The `Market Notes` and `Gaps To Fill` sections are allowed, but the main output must still be a complete CV draft, not only a blueprint.
 
 ## Market Rules
 
