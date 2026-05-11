@@ -18,6 +18,8 @@ Use this skill when the user wants to understand which roles fit their backgroun
 
 When the user provides a role, resume, or target market, do not stop at abstract advice. First, research current public job postings for that market/role and, when useful, benchmark publicly visible resume patterns for the same role family. Use that market evidence to shape the final CV, keywords, title, and salary guidance.
 
+The final output should feel like a real market-calibrated resume, not a generic ATS template. Lead with positioning, then show what the employer expects, then write the full CV draft.
+
 ## Core Principle
 
 Do not optimize for one stack. Optimize for the candidate's strongest marketable positioning.
@@ -76,7 +78,10 @@ The output must not stop at blueprinting. It must include the actual CV text wit
 
 Use this sequence:
 
+- write a market-calibrated headline that matches how the market names the role
+- explain why this positioning fits the target vacancy
 - define the target title the market actually uses
+- list the top alternate titles the market would recognize
 - summarize what employers are screening for
 - extract the recurring ATS keywords
 - identify the must-have proof points
@@ -86,6 +91,8 @@ Use this sequence:
 - write the Skills section
 - write the Experience section with market-aligned bullets
 - write the Experience section company by company, as a realistic CV would, using the researched role expectations to shape each company's bullets
+- ensure each company block reads like a real resume entry with role title, company, dates, and 4 to 6 bullets
+- make the bullets outcome-led, not tool-led
 - write the Projects section if useful
 - write the Education and Languages sections
 - write any extra sections needed for the market
@@ -103,6 +110,14 @@ For the Experience section, mirror a real resume format:
 - align the bullets to what the market research says this role expects
 - include scope, ownership, and measurable outcomes where reasonable
 - keep the sequence plausible for the target seniority and market
+
+For every vacancy, keep the same high-level output order:
+
+1. Market-calibrated positioning
+2. Employer expectations
+3. ATS keyword map
+4. Full CV draft
+5. Market notes and gaps
 
 ### 4. Diagnose positioning
 

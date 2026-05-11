@@ -1,6 +1,6 @@
 # Golden CV Builder
 
-A market-first skill for turning a role, resume, tech stack, or career goal into a golden ATS-friendly CV and application materials.
+A market-first skill for turning a role, resume, tech stack, or career goal into a market-calibrated golden CV and application materials.
 
 [![skills.sh](https://skills.sh/b/nullagent07/golden-cv-builder)](https://skills.sh/nullagent07/golden-cv-builder)
 
@@ -10,7 +10,7 @@ A market-first skill for turning a role, resume, tech stack, or career goal into
 - researches the target market before drafting the output
 - suggests best-fit job titles
 - builds ATS keyword maps
-- writes a full golden CV benchmark draft after market research, organized company by company
+- writes a full market-calibrated CV draft after research, organized company by company
 - creates US, UK, and EU resume or CV versions
 - generates LinkedIn headlines and recruiter messages
 - flags unsupported claims and weak positioning
