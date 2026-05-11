@@ -7,7 +7,7 @@ A market-first skill for turning a role, resume, tech stack, or career goal into
 ## What it does
 
 - analyzes resumes and tech stacks
-- researches the target market before drafting the output
+- researches the target market and public CV patterns before drafting the output
 - suggests best-fit job titles
 - builds ATS keyword maps
 - writes a full market-calibrated CV draft after research, organized company by company

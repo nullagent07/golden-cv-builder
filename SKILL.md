@@ -20,6 +20,8 @@ When the user provides a role, resume, or target market, do not stop at abstract
 
 The final output should feel like a real market-calibrated resume, not a generic ATS template. Lead with positioning, then show what the employer expects, then write the full CV draft.
 
+The research step must include both vacancy signals and public CV signals for the same role family when available. Public CV signals include LinkedIn headlines, resumes posted on portfolio sites, personal websites, GitHub profile summaries, and other visible career pages.
+
 ## Core Principle
 
 Do not optimize for one stack. Optimize for the candidate's strongest marketable positioning.
@@ -67,8 +69,22 @@ If the user gave enough context to search, collect live evidence before drafting
 - seniority signals in the market
 - common salary bands if available from public sources
 - resume patterns that match the same role family
+- public resume and CV patterns for the same role family
+- headline, summary, skills ordering, and experience structure used by stronger public examples
+- evidence of how candidates in the same market describe impact, scope, and specialization
 
 Use this research to ground the rest of the output. If browsing is not available, say so explicitly and continue with the best available offline analysis.
+
+When benchmarking public CVs, extract these patterns:
+
+- preferred title wording
+- headline format
+- summary tone and density
+- skills block ordering
+- experience section depth
+- project section style
+- how metrics and outcomes are phrased
+- which claims appear often and which are absent
 
 ### 3. Golden CV mode
 
@@ -82,6 +98,7 @@ Use this sequence:
 - explain why this positioning fits the target vacancy
 - define the target title the market actually uses
 - list the top alternate titles the market would recognize
+- compare the candidate positioning against public resume patterns and explain the delta
 - summarize what employers are screening for
 - extract the recurring ATS keywords
 - identify the must-have proof points
@@ -114,10 +131,11 @@ For the Experience section, mirror a real resume format:
 For every vacancy, keep the same high-level output order:
 
 1. Market-calibrated positioning
-2. Employer expectations
-3. ATS keyword map
-4. Full CV draft
-5. Market notes and gaps
+2. Public CV pattern benchmark
+3. Employer expectations
+4. ATS keyword map
+5. Full CV draft
+6. Market notes and gaps
 
 ### 4. Diagnose positioning
 
