@@ -59,6 +59,10 @@ If critical context is missing, ask only for what is needed next:
 - goal: positioning, rewrite, gap analysis, or application package
 - if the user asked for a golden CV, proceed without asking for a resume first
 
+If the user already included both a target role and a target market in the same request, do not ask follow-up questions about the market. Treat the market as resolved and proceed directly into research and full CV drafting.
+
+If the user says only a role name plus a market token such as US, UK, EU, or global, that is sufficient input for golden CV mode.
+
 ## Workflow
 
 ### 1. Identify the input type
@@ -70,6 +74,8 @@ Classify the user's material into one or more of:
 - job description
 - target market
 - constraints or preferences
+
+If the input contains a role and a market, skip intake questions and go straight to research.
 
 ### 2. Research the market
 

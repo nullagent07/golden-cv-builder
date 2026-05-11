@@ -24,6 +24,8 @@ npx skills add https://github.com/nullagent07/golden-cv-builder
 
 ## Example prompts
 
+If you include both role and market, the skill should go straight to golden CV mode.
+
 ```text
 Here is my resume. Tell me which roles I fit best and rewrite it for the US market.
 ```
