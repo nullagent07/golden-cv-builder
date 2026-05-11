@@ -7,9 +7,11 @@ A reusable skill for turning a resume, tech stack, target job, or career goal in
 ## What it does
 
 - analyzes resumes and tech stacks
+- researches the target market before drafting the output
 - suggests best-fit job titles
 - builds ATS keyword maps
 - rewrites resume bullets
+- creates a market-standard golden CV when the user only provides a role
 - creates US, UK, and EU resume or CV versions
 - generates LinkedIn headlines and recruiter messages
 - flags unsupported claims and weak positioning
@@ -24,6 +26,10 @@ npx skills add https://github.com/nullagent07/career-positioning-builder
 
 ```text
 Here is my resume. Tell me which roles I fit best and rewrite it for the US market.
+```
+
+```text
+Create a golden CV for Senior iOS Engineer in the US.
 ```
 
 ```text

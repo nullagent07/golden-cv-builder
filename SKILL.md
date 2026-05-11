@@ -16,7 +16,7 @@ Build ATS-friendly career positioning from any combination of:
 
 Use this skill when the user wants to understand which roles fit their background, map skills to job titles, rewrite bullets, adapt a resume for a market, or prepare LinkedIn and recruiter outreach materials.
 
-When the user provides a resume and a target market or target role, do not stop at abstract advice. First, research current public job postings for that market/role and, when useful, benchmark publicly visible resume patterns for the same role family. Use that market evidence to shape the final CV, keywords, title, and salary guidance.
+When the user provides a role, resume, or target market, do not stop at abstract advice. First, research current public job postings for that market/role and, when useful, benchmark publicly visible resume patterns for the same role family. Use that market evidence to shape the final CV, keywords, title, and salary guidance.
 
 ## Core Principle
 
@@ -34,12 +34,15 @@ Detect which inputs are available and proceed accordingly:
 4. Resume + job description
 5. Resume + stack + target market
 6. Resume + stack + job description + target market
+7. Role only
+8. Role + target market
 
 If critical context is missing, ask only for what is needed next:
 
 - target market: US, UK, EU, global, or specific country
 - seniority: junior, mid, senior, lead, staff
 - goal: positioning, rewrite, gap analysis, or application package
+- if the user asked for a golden CV, proceed without asking for a resume first
 
 ## Workflow
 
@@ -65,7 +68,23 @@ If the user gave enough context to search, collect live evidence before drafting
 
 Use this research to ground the rest of the output. If browsing is not available, say so explicitly and continue with the best available offline analysis.
 
-### 3. Diagnose positioning
+### 3. Golden CV mode
+
+If the user asked for a golden CV, or if they only gave a role and market, build the market-standard target profile first:
+
+- define the target title the market actually uses
+- summarize what employers are screening for
+- extract the recurring ATS keywords
+- identify the must-have proof points
+- identify the common gaps that weaken candidates
+- draft a golden resume structure and section order
+- draft a gold-standard summary, skill block, and achievement bullet patterns
+- include a clear `What the employer expects` section
+- include a clear `What to learn or prove` section
+
+Do not refuse because the user's own resume is missing. Instead, generate the best market benchmark draft and mark any missing candidate-specific facts as placeholders.
+
+### 4. Diagnose positioning
 
 Produce:
 
@@ -79,7 +98,7 @@ Produce:
 
 Use `references/role-taxonomy.md` and `references/skill-to-role-mapping.md` as the main mapping sources.
 
-### 4. Build the keyword map
+### 5. Build the keyword map
 
 Split keywords into:
 
@@ -90,7 +109,7 @@ Split keywords into:
 
 Use `references/tech-keyword-clusters.md` and the target job description.
 
-### 5. Rewrite or assemble the deliverable
+### 6. Rewrite or assemble the deliverable
 
 Depending on the user's goal, produce one or more of:
 
@@ -102,7 +121,7 @@ Depending on the user's goal, produce one or more of:
 - gap analysis
 - application strategy
 
-### 6. Run an honesty check
+### 7. Run an honesty check
 
 Flag anything that is:
 
@@ -113,6 +132,8 @@ Flag anything that is:
 - missing business context
 
 Do not invent experience, tools, company scale, or impact.
+
+When the user asked for a golden CV and has not provided personal experience, use placeholders like `[YOUR EXPERIENCE HERE]` instead of asking to stop.
 
 ## Default Output Format
 
@@ -148,6 +169,30 @@ When the user asks for a resume rewrite, use:
 ## Education
 
 ## Extra Sections
+```
+
+When the user asks for a golden CV, use:
+
+```markdown
+## Target Role
+
+## What Employers Are Screening For
+
+## ATS Keyword Map
+
+## Gold Standard Resume Structure
+
+## Summary
+
+## Skills
+
+## Experience Pattern
+
+## Project Pattern
+
+## What to Learn or Prove
+
+## Placeholder Facts To Fill
 ```
 
 ## Market Rules
